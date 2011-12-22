@@ -732,7 +732,7 @@
     <string name="bluetooth_connected" msgid="6038755206916626419">"Connecté"</string>
     <string name="bluetooth_connected_no_headset" msgid="2866994875046035609">"Connecté (sans audio pour appels tél.)"</string>
     <string name="bluetooth_connected_no_a2dp" msgid="4576188601581440337">"Connecté (sans audio contenu mutimédia)"</string>
-    <string name="bluetooth_connected_no_headset_no_a2dp" msgid="9195757766755553810">"Connecté (sans audio tel./multimédia)"</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp" msgid="9195757766755553810">"Connecté (sans audio tél./multimédia)"</string>
     <string name="bluetooth_disconnected" msgid="6557104142667339895">"Déconnecté"</string>
     <string name="bluetooth_disconnecting" msgid="8913264760027764974">"Déconnexion…"</string>
     <string name="bluetooth_connecting" msgid="8555009514614320497">"Connexion…"</string>
@@ -783,7 +783,7 @@
     <string name="proxy_clear_text" msgid="5555400754952012657">"Effacer"</string>
     <string name="proxy_port_label" msgid="5655276502233453400">"Port du proxy"</string>
     <string name="proxy_exclusionlist_label" msgid="7700491504623418701">"Ignorer le proxy pour"</string>
-    <string name="proxy_exclusionlist_hint" msgid="6084099226687226948">"example.com,mycomp.test.com,localhost"</string>
+    <string name="proxy_exclusionlist_hint" msgid="6084099226687226948">"exemple.com,mycomp.test.com,localhost"</string>
     <string name="proxy_defaultView_text" msgid="6387985519141433291">"Rétablir les paramètres par défaut"</string>
     <string name="proxy_action_text" msgid="2957063145357903951">"OK"</string>
     <string name="proxy_hostname_label" msgid="8490171412999373362">"Nom d\'hôte du proxy"</string>
@@ -907,8 +907,8 @@
     <string name="owner_info_settings_edit_text_hint" msgid="4608681417960923911">"Saisir texte à afficher sur écran de verrouillage"</string>
     <string name="location_settings_title" msgid="8935806698251432196">"Services de localisation"</string>
     <string name="security_settings_title" msgid="7945465324818485460">"Sécurité"</string>
-    <string name="security_settings_summary" msgid="967393342537986570">"Définir les paramètres de l\'option Ma position et de verrouillage"</string>
-    <string name="cdma_security_settings_summary" msgid="6068799952798901542">"Définir les paramètres de la fonction Ma position, de déverrouillage de l\'écran et de verrouillage du stockage des identifiants"</string>
+    <string name="security_settings_summary">"Définir les paramètres de localisation et de verrouillage de l\'appareil"</string>
+    <string name="cdma_security_settings_summary">"Définir les paramètres de localisation, de verrouillage de l\'écran et du stockage des identifiants"</string>
     <string name="security_passwords_title" msgid="2930627259125138363">"Mots de passe"</string>
     <string name="crypt_keeper_settings_title" msgid="4219233835490520414">"Chiffrement"</string>
     <string name="crypt_keeper_encrypt_title" product="tablet" msgid="1060273569887301457">"Chiffrer la tablette"</string>
@@ -936,9 +936,9 @@
     <string name="crypt_keeper_failed_summary" product="tablet" msgid="4478225241476039013">"Impossible de terminer le chiffrement, car celui-ci a été interrompu. Par conséquent, les données de votre tablette ne sont plus accessibles."\n\n"Pour continuer d\'utiliser votre tablette, vous devez rétablir la configuration d\'usine. Une fois cette opération terminée, vous pourrez restaurer toutes les données sauvegardées sur votre compte Google lors de la nouvelle configuration de votre tablette."</string>
     <string name="crypt_keeper_failed_summary" product="default" msgid="3083477162766772532">"Impossible de terminer le chiffrement, car celui-ci a été interrompu. Par conséquent, les données de votre téléphone ne sont plus accessibles."\n\n"Pour continuer d\'utiliser votre téléphone, vous devez rétablir la configuration d\'usine. Une fois cette opération terminée, vous pourrez restaurer toutes les données sauvegardées sur votre compte Google lors de la nouvelle configuration de votre téléphone."</string>
     <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">"Changer le mode de saisie"</string>
-    <string name="lock_settings_picker_title" msgid="1095755849152582712">"Sélect. verr. écran"</string>
+    <string name="lock_settings_picker_title">Type de verrouillage</string>
     <string name="backup_lock_settings_picker_title" msgid="8530380598637963916">"Verrouillage secondaire"</string>
-    <string name="unlock_set_unlock_launch_picker_title" msgid="2084576942666016993">"Verrouillage de l\'écran"</string>
+    <string name="unlock_set_unlock_launch_picker_title">Type de verrouillage</string>
     <string name="unlock_set_unlock_launch_picker_change_title" msgid="5045866882028324941">"Modifier écran verr."</string>
     <string name="unlock_set_unlock_launch_picker_change_summary" msgid="2790960639554590668">"Modifier ou désactiver la sécurité : schéma, code PIN ou mot de passe"</string>
     <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="4791110798817242301">"Choisir une méthode pour verrouiller l\'écran"</string>
@@ -2141,11 +2141,11 @@
     <string name="strict_mode" msgid="1938795874357830695">"Mode Strict activé"</string>
     <string name="strict_mode_summary" msgid="142834318897332338">"Afficher un cadre rouge si le thread principal reste occupé"</string>
     <string name="pointer_location" msgid="6084434787496938001">"Emplacement du curseur"</string>
-    <string name="pointer_location_summary" msgid="840819275172753713">"Superposition écran indiquant données actuelles"</string>
-    <string name="show_touches" msgid="1356420386500834339">"Afficher élément sélectionné"</string>
-    <string name="show_touches_summary" msgid="6684407913145150041">"Afficher repère visuel pour éléments sélectionnés"</string>
+    <string name="pointer_location_summary">"Superposition écran indiquant la position X/Y du pointeur"</string>
+    <string name="show_touches">Points de contact</string>
+    <string name="show_touches_summary">"Afficher des repères visuels aux emplacements touchés"</string>
     <string name="show_screen_updates" msgid="5470814345876056420">"Affich. mise à jour surface"</string>
-    <string name="show_screen_updates_summary" msgid="2569622766672785529">"Faire clignoter les surfaces à chaque mise à jour"</string>
+    <string name="show_screen_updates_summary" msgid="1716122382094924596">"Faire clignoter les éléments mis à jour sur l\'écran"</string>
     <string name="show_hw_screen_updates" msgid="5036904558145941590">"Afficher mises à jour GPU"</string>
     <string name="show_hw_screen_updates_summary" msgid="1115593565980196197">"Faire clignoter les éléments dessinés avec le GPU"</string>
     <string name="disable_overlays" msgid="2074488440505934665">"Désact. superpos. matér."</string>
@@ -2157,10 +2157,10 @@
     <string name="enable_traces_summary_all" msgid="3950139649125158247">"Toutes les traces sont actuellement activées."</string>
     <string name="debug_layout" msgid="5981361776594526155">"Afficher les contours"</string>
     <string name="debug_layout_summary" msgid="2001775315258637682">"Afficher les limites, les marges de clip, etc."</string>
-    <string name="show_cpu_usage" msgid="2389212910758076024">"Afficher mém. CPU utilisée"</string>
-    <string name="show_cpu_usage_summary" msgid="2113341923988958266">"Superposition écran indiquant mémoire CPU utilisée"</string>
+    <string name="show_cpu_usage" msgid="2389212910758076024">"Utilisation CPU"</string>
+    <string name="show_cpu_usage_summary" msgid="2113341923988958266">"Superposition écran indiquant l\'utilisation de la mémoire et du CPU"</string>
     <string name="force_hw_ui" msgid="6426383462520888732">"Forcer le rendu GPU"</string>
-    <string name="force_hw_ui_summary" msgid="5535991166074861515">"Forcer l\'utilisation du GPU pour le dessin 2D"</string>
+    <string name="force_hw_ui_summary" msgid="5535991166074861515">"Forcer l\'utilisation du GPU pour le dessin 2D dans toutes les applications"</string>
     <string name="track_frame_time" msgid="6146354853663863443">"Rendu GPU du profil"</string>
     <string name="track_frame_time_summary" msgid="447577515813970287">"Mesurer durée rendu dans adb shell dumpsys gfxinfo"</string>
     <string name="window_animation_scale_title" msgid="6162587588166114700">"Échelle animation fenêtres"</string>
@@ -2169,9 +2169,9 @@
     <string name="debug_applications_category" msgid="4206913653849771549">"Applications"</string>
     <string name="immediately_destroy_activities" msgid="8366775083630234121">"Ne pas conserver activités"</string>
     <string name="immediately_destroy_activities_summary" msgid="3592221124808773368">"Supprimer immédiatement les activités abandonnées"</string>
-    <string name="app_process_limit_title" msgid="4280600650253107163">"Limite processus arr.-plan"</string>
-    <string name="show_all_anrs" msgid="28462979638729082">"Afficher tous les messages \"L\'application ne répond pas\""</string>
-    <string name="show_all_anrs_summary" msgid="641908614413544127">"Afficher \"L\'application ne répond plus\" pour applis en arrière-plan"</string>
+    <string name="app_process_limit_title">"Limite processus arr.plan"</string>
+    <string name="show_all_anrs">Tous les messages ANR</string>
+    <string name="show_all_anrs_summary">"Afficher aussi \"L\'application ne répond plus\" pour les applications en arrière-plan"</string>
     <string name="data_usage_summary_title" msgid="3804110657238092929">"Consommation des données"</string>
     <string name="data_usage_cycle" msgid="5652529796195787949">"Cycle de consommation"</string>
     <string name="data_usage_menu_roaming" msgid="8042359966835203296">"Autoriser itinérance"</string>
