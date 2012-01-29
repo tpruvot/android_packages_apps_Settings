@@ -491,7 +491,7 @@
     <string name="dock_audio_summary_unknown" msgid="4465059868974255693">"Paramètres station d\'accueil associée"</string>
     <string name="dock_not_found_title" msgid="3290961741828952424">"Station d\'accueil introuvable"</string>
     <string name="dock_not_found_text" msgid="3035260358985111855">"Pour configurer les paramètres audio de la station d\'accueil, vous devez placer le téléphone sur cette dernière."</string>
-    <string name="dock_sounds_enable_title" msgid="3659084028644948905">"Insertion dans la station d\'accueil"</string>
+    <string name="dock_sounds_enable_title">Son à l\'insertion</string>
     <string name="dock_sounds_enable_summary_on" msgid="8491180514199743771">"Emettre un son lorsque le téléphone est inséré dans la station d\'accueil ou retiré de celle-ci"</string>
     <string name="dock_sounds_enable_summary_off" msgid="3151046599205265919">"N\'émettre aucun son lorsque le téléphone est inséré dans la station d\'accueil ou retiré de celle-ci"</string>
     <string name="sync_settings" msgid="9186125469300013491">"Comptes et synchro"</string>
