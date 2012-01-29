@@ -20,6 +20,12 @@
     android:title="@string/dock_settings_title"
     android:key="parent">
 
+    <CheckBoxPreference
+        android:key="dock_start_adb_net"
+        android:title="@string/dock_start_adb_net_title"
+        android:summary="@string/dock_start_adb_net_summary"
+        android:defaultValue="false" />
+
     <PreferenceScreen
         android:key="dock_audio"
         android:title="@string/dock_audio_settings_title"

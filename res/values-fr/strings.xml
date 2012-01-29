@@ -494,6 +494,8 @@
     <string name="dock_sounds_enable_title">Son à l\'insertion</string>
     <string name="dock_sounds_enable_summary_on" msgid="8491180514199743771">"Emettre un son lorsque le téléphone est inséré dans la station d\'accueil ou retiré de celle-ci"</string>
     <string name="dock_sounds_enable_summary_off" msgid="3151046599205265919">"N\'émettre aucun son lorsque le téléphone est inséré dans la station d\'accueil ou retiré de celle-ci"</string>
+    <string name="dock_start_adb_net_title">ADB sur station de bureau</string>
+    <string name="dock_start_adb_net_summary">Active ADB sur le Wi-Fi lorsque le téléphone est connecté à la station, utile s\'il n\'y a pas de câble vers le PC</string>
     <string name="sync_settings" msgid="9186125469300013491">"Comptes et synchro"</string>
     <string name="sync_settings_summary" msgid="2962179505214965667">"Ajouter ou supprimer des comptes et modifier leurs paramètres"</string>
     <string name="search_settings" msgid="1910951467596035063">"Recherche"</string>

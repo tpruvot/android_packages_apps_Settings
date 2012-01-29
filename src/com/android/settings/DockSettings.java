@@ -30,16 +30,21 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
+import android.util.Log;
 
 import com.android.settings.bluetooth.DockEventReceiver;
 
 public class DockSettings extends PreferenceActivity {
+    private static final String TAG = "DockSettings";
 
     private static final int DIALOG_NOT_DOCKED = 1;
     private static final String KEY_AUDIO_SETTINGS = "dock_audio";
     private static final String KEY_DOCK_SOUNDS = "dock_sounds";
+    private static final String KEY_DOCK_ADB_NET = "dock_start_adb_net";
+
     private Preference mAudioSettings;
     private CheckBoxPreference mDockSounds;
+    private CheckBoxPreference mDockAdbNet;
     private Intent mDockIntent;
 
     private BroadcastReceiver mReceiver = new BroadcastReceiver() {
@@ -87,8 +92,34 @@ public class DockSettings extends PreferenceActivity {
         mDockSounds.setPersistent(false);
         mDockSounds.setChecked(Settings.System.getInt(resolver,
                 Settings.System.DOCK_SOUNDS_ENABLED, 0) != 0);
+
+        mDockAdbNet = (CheckBoxPreference) findPreference(KEY_DOCK_ADB_NET);
+        mDockAdbNet.setChecked(Settings.System.getInt(resolver,
+                Settings.System.DOCK_ADB_NET_ENABLED, 0) != 0);
     }
 
+    /**
+     * To toggle from UI, main Adb over Network switch is in framework dock service !
+     */
+    private void toggleAdbNet(boolean enableAdbNet) {
+        ContentResolver resolver = getContentResolver();
+
+        // both ADB and Dock setting must be active to allow the adb network switch
+        boolean adbAllowed = Settings.Secure.getInt(resolver, Settings.Secure.ADB_ENABLED, 0) > 0;
+        Log.i(TAG, "toggleAdbNet("+enableAdbNet+") adbAllowed="+adbAllowed);
+
+        if (adbAllowed) {
+            if (enableAdbNet) {
+                Settings.Secure.putInt(resolver, Settings.Secure.ADB_PORT, 5555);
+            } else {
+                Settings.Secure.putInt(resolver, Settings.Secure.ADB_PORT, -1);
+            }
+        }
+    }
+
+    /**
+     * Dock audio related, like car bluetooth
+     */
     private void handleDockChange(Intent intent) {
         if (mAudioSettings != null) {
             int dockState = intent.getIntExtra(Intent.EXTRA_DOCK_STATE, 0);
@@ -145,6 +176,10 @@ public class DockSettings extends PreferenceActivity {
         } else if (preference == mDockSounds) {
             Settings.System.putInt(getContentResolver(), Settings.System.DOCK_SOUNDS_ENABLED,
                     mDockSounds.isChecked() ? 1 : 0);
+        } else if (preference == mDockAdbNet) {
+            Settings.System.putInt(getContentResolver(), Settings.System.DOCK_ADB_NET_ENABLED,
+                    mDockAdbNet.isChecked() ? 1 : 0);
+            toggleAdbNet(mDockAdbNet.isChecked());
         }
 
         return true;
