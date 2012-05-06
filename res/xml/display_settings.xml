@@ -23,13 +23,18 @@
             android:title="@string/brightness"
             android:dialogTitle="@string/brightness" />
 
-<!-- Hide until code is ported from CM9
+        <ListPreference android:key="pref_render_effect"
+            android:dialogTitle="@string/pref_render_effect_title"
+            android:title="@string/pref_render_effect_title"
+            android:summary="@string/pref_render_effect_summary"
+            android:entries="@array/render_effect_entries"
+            android:entryValues="@array/render_effect_values" />
+
         <PreferenceScreen
             android:key="backlight_widget"
             android:fragment="com.android.settings.cyanogenmod.Backlight"
             android:title="@string/backlight_title"
             android:summary="@string/backlight_summary" />
--->
 
         <PreferenceScreen
             android:key="display_rotation"
