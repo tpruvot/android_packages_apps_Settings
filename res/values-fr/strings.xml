@@ -769,6 +769,22 @@
     <string name="notification_light_enabled">Actif</string>
     <string name="notification_light_disabled">Désactivé</string>
 
+    <!-- Display Settings : Render effect -->
+    <string name="pref_render_effect_title">Effet de rendu</string>
+    <string name="pref_render_effect_summary">Modifie le rendu des couleurs à l\'écran</string>
+
+    <string name="pref_render_effect_none">Pas d\'effet de rendu</string>
+    <string name="pref_render_effect_night">Mode nocture (3700K)</string>
+    <string name="pref_render_effect_green">Terminal (vert)</string>
+    <string name="pref_render_effect_blue">Bleu</string>
+    <string name="pref_render_effect_amber">Orange</string>
+    <string name="pref_render_effect_salmon">Saumon</string>
+    <string name="pref_render_effect_fuscia">Fuschia</string>
+    <string name="pref_render_effect_calibrated">Calibré (N1)</string>
+    <string name="pref_render_effect_calibrated_red">Calibré (N1) Rouge réduit</string>
+    <string name="pref_render_effect_calibrated_cool">Calibré (N1) Froid</string>
+    <string name="pref_render_effect_red">Rouge</string>
+
     <!-- Advanced, Device specific (DeviceParts) settings #CM -->
     <string name="advanced_settings_title">Options spécifiques</string>
 
