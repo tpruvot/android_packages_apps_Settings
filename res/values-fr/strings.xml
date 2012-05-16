@@ -1134,6 +1134,9 @@
     <string name="adb_over_network">ADB sur TCP/IP</string>
     <string name="adb_over_network_summary">"Activer le débogage sur toutes les interfaces (réseaux USB, Wi-Fi et Bluetooth)"</string>
     <string name="adb_over_network_warning">"ATTENTION: Lorsque cette fonction est activée, votre téléphone est ouvert aux intrusions sur toutes les interfaces, y compris via le réseau mobile !\n\nIl est fortement conseillé de désactiver le réseau mobile avant d\'activer cette fonction.\n\nContinuer ?"</string>
+    <string name="adb_notify">Notification débogage</string>
+    <string name="adb_notify_summary">Afficher une notification lorsque le débogage est actif</string>
+
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Accès root</string>
     <string name="root_access_warning_title">Autoriser l\'accès root ?</string>
