@@ -894,18 +894,16 @@
     <string name="weather_use_custom_location">Lieu personnalisé</string>
     <string name="weather_geolocated">Géolocalisation par le réseau</string>
     <string name="weather_custom_location_dialog_title">Modifier le lieu</string>
-    <string name="weather_custom_location_dialog_message">Attention: Un lieu non reconnu arrête les mises à jour.</string>
     <string name="weather_custom_location_hint">Ville, Pays</string>
     <string name="weather_custom_location_title">Lieu</string>
     <string name="weather_show_location_title">Afficher le lieu</string>
     <string name="weather_show_timestamp_title">Afficher l\'heure</string>
     <string name="weather_refresh_interval">Intervalle de mise à jour</string>
-    <string name="weather_update">Mettre à jour</string>
     <string name="weather_use_metric">Système métrique</string>
-    <string name="weather_refreshing">Mise à jour de la météo</string>
     <string name="weather_retrieve_location_dialog_title">Impossible de déterminer le lieu!</string>
     <string name="weather_retrieve_location_dialog_message">La localisation par le réseau est désactivée.\n\nVeuillez sélectionner manuellement le lieu</string>
     <string name="weather_retrieve_location_dialog_enable_button">Activer</string>
+    <string name="weather_progress_title">Vérification du lieu</string>
 
     <!-- Lock screen Weather - Update frequency -->
     <string name="weather_refresh_manual">Manuellement</string>
