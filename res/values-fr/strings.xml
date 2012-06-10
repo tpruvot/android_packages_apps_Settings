@@ -942,6 +942,15 @@
     <string name="calendar_metadata_first_line">Afficher la première ligne</string>
     <string name="calendar_metadata_all">Afficher tout</string>
 
+    <!-- Lock screen background -->
+    <string name="lockscreen_custom_background_title">Fond d\'écran</string>
+    <string name="lockscreen_custom_background_dialog_title">Choisir une couleur</string>
+    <string name="lockscreen_background_result_successful">Fond d\'écran modifié</string>
+    <string name="lockscreen_background_result_not_successful">Fond d\'écran non modifié</string>
+    <string name="lockscreen_background_color_fill">Couleur</string>
+    <string name="lockscreen_background_custom_image">Image ou photo.</string>
+    <string name="lockscreen_background_default_wallpaper">Fond d\'écran par défaut</string>
+
     <!-- Lock Screen Shortcuts -->
     <string name="lockscreen_target_info">Glisser pour assigner les raccourcis</string>
     <string name="lockscreen_target_title">Raccourcis</string>
