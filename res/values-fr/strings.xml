@@ -870,7 +870,7 @@
     <string name="cm_sound_mode_soundVibrate">Son+Vibreur</string>
     <string name="pref_flash_mode_title">Torche</string>
     <string name="pref_flash_mode_summary">Puissance de la diode</string>
-    <string name="toggles_not_enough_space">L\espace est limité à 6 éléments</string>
+    <string name="toggles_not_enough_space">L\'espace est limité à 6 éléments</string>
 
     <!-- Status bar #CM -->
     <string name="status_bar_title">Barre d\'état</string>
