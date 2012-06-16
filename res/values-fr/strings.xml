@@ -673,6 +673,7 @@
     <string name="volume_overlay_title">Contrôle du volume</string>
     <string name="volbtn_music_controls_title">Playlist par boutons volume</string>
     <string name="volbtn_music_controls_summary">Lorsque l\'écran est éteint, un appui long permet de changer le titre en cours</string>
+    <string name="volume_ring_only_description">Sonnerie du téléphone</string>
     <string name="link_volume_ringtones">Lier le volume des alertes à la sonnerie</string>
     <string name="link_volume_ringtones_toast">Vérifiez le volume de la sonnerie pour l\'appliquer à celui des alertes.</string>
     <string name="link_volume_mutes">Silence commun pour alertes et sonnerie</string>
@@ -696,9 +697,9 @@
     <string name="quiet_hours_dim">Désactiver les leds</string>
     <string name="quiet_hours_dim_on">Leds de notification désactivées</string>
     <string name="quiet_hours_dim_off">Leds de notification actives</string>
-    <string name="quiet_hours_haptic">Désactiver son des touches</string>
+    <string name="quiet_hours_haptic">Désactiver son des boutons</string>
     <string name="quiet_hours_haptic_on">Le son des boutons est désactivé</string>
-    <string name="quiet_hours_haptic_off">Le son des bouttons est actif</string>
+    <string name="quiet_hours_haptic_off">Le son des boutons est actif</string>
     <string name="quiet_hours_active_from">Actif de</string>
     <string name="quiet_hours_active_to">jusqu\'à</string>
 
