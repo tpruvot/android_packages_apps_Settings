@@ -83,7 +83,7 @@ public class AdvancedWifiSettings extends SettingsPreferenceFragment
                         Secure.WIFI_WATCHDOG_ON, 1) == 1);
 
             //TODO: Bring this back after changing watchdog behavior
-            getPreferenceScreen().removePreference(watchdogEnabled);
+            //getPreferenceScreen().removePreference(watchdogEnabled);
         }
 
         ListPreference frequencyPref = (ListPreference) findPreference(KEY_FREQUENCY_BAND);
