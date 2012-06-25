@@ -499,7 +499,7 @@
     <string name="wifi_notify_open_networks" msgid="3755768188029653293">"Notification de réseau"</string>
     <string name="wifi_notify_open_networks_summary" msgid="3038290727701553612">"Me notifier lorsqu\'un réseau ouvert est disponible"</string>
     <string name="wifi_enable_watchdog_service" msgid="3808826765041243874">"Éviter mauvaises connexions"</string>
-    <string name="wifi_enable_watchdog_service_summary" msgid="4227430628962787616">"Ne pas utiliser de réseau Wi-Fi, sauf en cas de connexion Internet de bonne qualité"</string>
+    <string name="wifi_enable_watchdog_service_summary">"Ne pas utiliser les réseaux Wi-Fi qui ne permettent pas la connexion à Internet"</string>
     <string name="wifi_setting_sleep_policy_title" msgid="9107237003911220057">"Wi-Fi actif en veille"</string>
     <string name="wifi_setting_sleep_policy_error" msgid="8174902072673071961">"Un problème est survenu lors de la modification des paramètres."</string>
     <string name="wifi_add_network" msgid="6234851776910938957">"Ajouter un réseau"</string>
