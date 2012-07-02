@@ -56,6 +56,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_ELECTRON_BEAM_ANIMATION_ON = "electron_beam_animation_on";
     private static final String KEY_ELECTRON_BEAM_ANIMATION_OFF = "electron_beam_animation_off";
     private static final String KEY_ELECTRON_BEAM_CATEGORY_ANIMATION = "category_animation_options";
+    private static final String KEY_WAKEUP_CATEGORY = "category_wakeup_options";
     private static final String KEY_VOLUME_WAKE = "pref_volume_wake";
     private static final String KEY_RENDER_EFFECT = "pref_render_effect";
 
@@ -157,15 +158,19 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
         mVolumeWake = (CheckBoxPreference) findPreference(KEY_VOLUME_WAKE);
         if (mVolumeWake != null) {
-            mVolumeWake.setChecked(Settings.System.getInt(resolver,
-                    Settings.System.VOLUME_WAKE_SCREEN, 0) == 1);
+            if (!getResources().getBoolean(R.bool.config_show_volumeRockerWake)) {
+                getPreferenceScreen().removePreference(mVolumeWake);
+                getPreferenceScreen().removePreference((PreferenceCategory) findPreference(KEY_WAKEUP_CATEGORY));
+            } else {
+                mVolumeWake.setChecked(Settings.System.getInt(resolver,
+                        Settings.System.VOLUME_WAKE_SCREEN, 0) == 1);
+            }
 
         }
 
         mRenderEffect = (ListPreference) findPreference(KEY_RENDER_EFFECT);
         mRenderEffect.setOnPreferenceChangeListener(this);
         updateFlingerOptions();
-
     }
 
     private void updateDisplayRotationPreferenceDescription() {
