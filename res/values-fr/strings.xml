@@ -1071,7 +1071,6 @@
     <!-- Status bar notification count -->
     <string name="status_bar_notif_count_title">Compteur de notifications</string>
     <string name="status_bar_notif_count_summary">Afficher le nombre de notifications en attente dans la barre d\'état</string>
-
     <string name="increasing_ring_title">Sonnerie progressive</string>
     <string name="checkbox_increasing_ring">Activer</string>
 
