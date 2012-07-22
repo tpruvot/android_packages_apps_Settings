@@ -893,17 +893,8 @@ public class DevelopmentSettings extends PreferenceFragment
 
         if (preference == mEnableAdb) {
             if (mEnableAdb.isChecked()) {
-                mDialogClicked = false;
-                if (mAdbDialog != null) dismissDialogs();
-                mAdbDialog = new AlertDialog.Builder(getActivity()).setMessage(
-                        getActivity().getResources().getString(R.string.adb_warning_message))
-                        .setTitle(R.string.adb_warning_title)
-                        .setIcon(android.R.drawable.ic_dialog_alert)
-                        .setPositiveButton(android.R.string.yes, this)
-                        .setNegativeButton(android.R.string.no, this)
-                        .show();
-                mCurrentDialog = ENABLE_ADB;
-                mAdbDialog.setOnDismissListener(this);
+                Settings.Secure.putInt(getActivity().getContentResolver(),
+                        Settings.Secure.ADB_ENABLED, 1);
             } else {
                 Settings.Secure.putInt(getActivity().getContentResolver(),
                         Settings.Secure.ADB_ENABLED, 0);
