@@ -374,7 +374,7 @@ public class DevelopmentSettings extends PreferenceFragment
         updateCheckBox(mEnableAdb, Settings.Secure.getInt(cr,
                 Settings.Secure.ADB_ENABLED, 0) != 0);
         updateAdbOverNetwork();
-        updateCheckBox(mAdbNotify, Settings.Secure.getInt(cr,
+        mAdbNotify.setChecked(Settings.Secure.getInt(cr,
                 Settings.Secure.ADB_NOTIFY, 1) != 0);
         updateCheckBox(mKeepScreenOn, Settings.System.getInt(cr,
                 Settings.System.STAY_ON_WHILE_PLUGGED_IN, 0) != 0);
