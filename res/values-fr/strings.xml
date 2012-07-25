@@ -1216,6 +1216,7 @@
     <string name="display_settings_title" msgid="1708697328627382561">"Affichage"</string>
     <string name="sound_settings" msgid="5534671337768745343">"Son"</string>
     <string name="ringtone_title" msgid="5379026328015343686">"Sonnerie du téléphone"</string>
+    <string name="silent_mode_title" msgid="3181479108593217704">"Mode silencieux"</string>
     <string name="ringtone_summary" msgid="2630023412632683493"></string>
     <string name="all_volume_title" msgid="4296957391257836961">"Volume"</string>
     <string name="musicfx_title" msgid="3415566786340790345">"Effets musicaux"</string>
@@ -1800,7 +1801,7 @@
     <string name="enable_adb">Débogage Android</string>
     <string name="enable_adb_summary">Activer le débogage lorsqu\'un câble USB est connecté ou lorsque que le mode TCP/IP est sélectionné</string>
     <string name="keep_screen_on" msgid="1146389631208760344">"Rester activé"</string>
-    <string name="keep_screen_on_summary" msgid="2173114350754293009">"L\'écran ne se met jamais en veille lors du chargement"</string>
+    <string name="keep_screen_on_summary" msgid="2173114350754293009">"L\'écran ne se met jamais en veille lors du chargement de la batterie"</string>
     <string name="allow_mock_location" msgid="2787962564578664888">"Positions fictives"</string>
     <string name="allow_mock_location_summary" msgid="317615105156345626">"Autoriser les positions fictives"</string>
     <string name="adb_warning_title" msgid="6234463310896563253">"Autoriser le débogage USB ?"</string>
@@ -1808,11 +1809,11 @@
     <string name="dev_settings_warning_title" msgid="7244607768088540165">"Activer les paramètres de développement ?"</string>
     <string name="dev_settings_warning_message" msgid="2298337781139097964">"Ces paramètres sont en cours de développement. Ils peuvent endommager votre appareil et les applications qui s\'y trouvent, ou provoquer leur dysfonctionnement."</string>
     <string name="enforce_read_external_title" product="nosdcard" msgid="7733257271454664956">"Protéger mémoire de stockage USB"</string>
-    <string name="enforce_read_external_summary" product="nosdcard" msgid="1798088409346660567">"Les applis doivent demander l\'autorisation pour lire la mémoire."</string>
+    <string name="enforce_read_external_summary" product="nosdcard" msgid="1798088409346660567">"Les applications doivent demander l\'autorisation pour lire la mémoire."</string>
     <string name="enforce_read_external_confirm_title" product="nosdcard" msgid="2112813067171502209">"Protéger mémoire stockage USB ?"</string>
     <string name="enforce_read_external_confirm_message" product="nosdcard" msgid="605444326545922054">"Lorsque la mémoire de stockage USB est protégée, les applications doivent demander l\'autorisation de lire les données de la mémoire de stockage externe."\n\n"Certaines applications peuvent ne pas fonctionner jusqu\'à ce que leurs développeurs les mettent à jour."</string>
     <string name="enforce_read_external_title" product="default" msgid="2226662853797940829">"Protéger la carte SD"</string>
-    <string name="enforce_read_external_summary" product="default" msgid="2750027486786530064">"Les applications doivent demander autorisation de lire carte SD."</string>
+    <string name="enforce_read_external_summary" product="default" msgid="2750027486786530064">"Les applications doivent demander l\'autorisation de lire la carte SD."</string>
     <string name="enforce_read_external_confirm_title" product="default" msgid="273220585729800783">"Protéger la carte SD ?"</string>
     <string name="enforce_read_external_confirm_message" product="default" msgid="3858482712337574407">"Lorsque la carte SD est protégée, les applications doivent demander l\'autorisation de lire les données de la mémoire de stockage externe."\n\n"Certaines applications peuvent ne pas fonctionner jusqu\'à ce que leurs développeurs les mettent à jour."</string>
     <string name="gadget_picker_title" msgid="98374951396755811">"Choisir un gadget"</string>
