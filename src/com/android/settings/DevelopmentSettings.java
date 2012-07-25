@@ -1026,6 +1026,10 @@ public class DevelopmentSettings extends PreferenceFragment
             mAdbDialog.dismiss();
             mAdbDialog = null;
         }
+        if (mOkDialog != null) {
+            mOkDialog.dismiss();
+            mOkDialog = null;
+        }
         if (mEnableDialog != null) {
             mEnableDialog.dismiss();
             mEnableDialog = null;
