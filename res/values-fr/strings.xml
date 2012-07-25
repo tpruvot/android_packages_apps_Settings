@@ -2286,7 +2286,7 @@
     <!-- String.format failed for translation -->
     <!-- no translation found for percentage (5866131581207788624) -->
     <skip />
-    <string name="additional_system_update_settings_list_item_title" msgid="214987609894661992">"Mises à jour supplémentaires du système"</string>
+    <string name="additional_system_update_settings_list_item_title" msgid="214987609894661992">"Mises à jour de la ROM"</string>
     <string name="user_settings_title" msgid="5189224330534906766">"Utilisateurs et restrictions"</string>
     <string name="user_list_title" msgid="2152311434413878709">"Utilisateurs"</string>
     <string name="user_add_user_menu" msgid="1675956975014862382">"Ajouter utilisateur"</string>
