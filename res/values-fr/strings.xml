@@ -242,7 +242,6 @@
     <string name="status_bar_title">Barre d\'état</string>
     <string name="status_bar_clock_title">Horloge</string>
     <string name="status_bar_general_title">Général</string>
-<!--
     <string name="status_bar_show_clock_title">Afficher l\'heure</string>
     <string name="status_bar_show_clock_summary">Afficher l\'heure dans la barre d\'état</string>
     <string name="status_bar_am_pm_title">Indicateur AM/PM</string>
@@ -256,7 +255,6 @@
     <string name="status_bar_signal_text_summary">Afficher les dBm au lieu de l\'icône de signal</string>
     <string name="status_bar_signal_text_show_bars">Icône</string>
     <string name="status_bar_signal_text_show_text">Texte</string>
--->
 
     <!-- Power Widget, Haptic feedback #CM -->
     <string name="expanded_haptic_feedback_title">Retour haptique</string>
