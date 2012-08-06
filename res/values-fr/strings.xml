@@ -192,13 +192,10 @@
     <!-- Power Widget #CM -->
     <string name="power_widget_title">Gestion de l\'alimentation</string>
     <string name="title_expanded_widget">Afficher le widget</string>
-<!--
-    <string name="summary_expanded_widget">Afficher le contrôle rapide de l\'alimentation dans la barre de notification</string>
+
+    <string name="power_widget_behavior">Comportement</string>
     <string name="title_expanded_hide_onchange">Cacher après changement</string>
-    <string name="summary_expanded_hide_onchange">Masquer la barre de notification lorsqu\'un bouton du widget est cliqué</string>
     <string name="title_expanded_hide_scrollbar">Cacher barre de défilement</string>
-    <string name="summary_expanded_hide_scrollbar">Masquer la barre de défilement s\'il y a trop de boutons dans le widget</string>
--->
     <string name="title_widget_picker">Boutons du widget</string>
     <string name="summary_widget_picker">Choisir les boutons à afficher</string>
     <string name="title_widget_order">Ordre des boutons</string>
@@ -281,6 +278,7 @@
     <string name="weather_retrieve_location_dialog_message">La localisation par le réseau est désactivée.\n\nVeuillez sélectionner manuellement le lieu</string>
     <string name="weather_retrieve_location_dialog_enable_button">Activer</string>
     <string name="weather_progress_title">Vérification du lieu</string>
+    <string name="weather_invert_lowhigh">Inverser min/max de la T°c</string>
 
     <!-- Lock screen Weather - Update frequency -->
     <string name="weather_refresh_manual">Manuellement</string>
