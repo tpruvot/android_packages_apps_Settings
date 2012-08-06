@@ -240,16 +240,12 @@
     <string name="status_bar_clock_title">Horloge</string>
     <string name="status_bar_general_title">Général</string>
     <string name="status_bar_show_clock_title">Afficher l\'heure</string>
-    <string name="status_bar_show_clock_summary">Afficher l\'heure dans la barre d\'état</string>
     <string name="status_bar_am_pm_title">Indicateur AM/PM</string>
-    <string name="status_bar_am_pm_summary">Affiche l\'indicateur AM/PM à côté de l\'heure</string>
-    <string name="status_bar_battery_title">Batterie</string>
-    <string name="status_bar_battery_summary">Style de l\'indicateur de niveau de charge</string>
+    <string name="status_bar_battery_title">Style batterie</string>
     <string name="status_bar_toggle_brightness">Rétroéclairage</string>
     <string name="status_bar_toggle_brightness_summary">Ajustement de la luminosité en glissant dans la barre</string>
     <string name="status_bar_toggle_info">Le rétroéclairage automatique est activé</string>
     <string name="status_bar_signal_text_title">Signal GSM alternatif</string>
-    <string name="status_bar_signal_text_summary">Afficher les dBm au lieu de l\'icône de signal</string>
     <string name="status_bar_signal_text_show_bars">Icône</string>
     <string name="status_bar_signal_text_show_text">Texte</string>
 
@@ -258,6 +254,10 @@
 
     <!-- Lock screen #CM -->
     <string name="lock_screen_title">Ecran de verrouillage</string>
+    <string name="lockscreen_battery_status_title">Etat de la batterie</string>
+    <string name="lockscreen_battery_status_charging">Only when charging</string>
+    <string name="lockscreen_battery_status_alwayson">Always on</string>
+
 
     <!-- Lock Screen Weather -->
     <string name="lockscreen_weather_title">Météo</string>
@@ -372,45 +372,35 @@
     <string name="profiles_add">Ajouter</string>
     <string name="profile_menu_delete">Supprimer</string>
     <string name="profile_settings_title">Profil</string>
-
-    <!-- Add Profile -->
     <string name="add_profile_dialog_title">Créer nouveau profil</string>
     <string name="profile_name_title">Nom du profil</string>
     <string name="profile_profile_name_prompt">Entrer le nom du profil</string>
     <string name="menu_new_profile">Nouveau profil</string>
     <string name="menu_new_profile_summary">Ajouter et configurer un nouveau profil</string>
     <string name="new_profile_name">&lt;nouveau profil&gt;</string>
-
-    <!-- Rename Profile Dialog  -->
     <string name="rename_dialog_title">Renommer</string>
     <string name="rename_dialog_message">Saisir un nouveau nom</string>
     <string name="duplicate_appgroup_name">Ce groupe existe déjà !</string>
     <string name="duplicate_profile_name">Ce profil existe déjà !</string>
-
-    <!-- Reset Profiles -->
     <string name="profile_reset_title">Reset</string>
     <string name="profile_reset_message">Etes-vous certain de vouloir supprimer tous les profils et groupes d\'applications ?</string>
-
-    <!-- Delete confimation messages -->
     <string name="profile_delete_confirm">Supprimer ce profil ?</string>
     <string name="profile_app_delete_confirm">Supprimer cette application ?</string>
     <string name="profile_cannot_delete">Vous ne pouvez pas supprimer le profil actif</string>
-
-    <!-- Profile Config screen PreferenceGroup titles -->
     <string name="profile_connectionoverrides_title">Connexions</string>
     <string name="profile_volumeoverrides_title">Volume perso.</string>
+    <string name="profile_vibratoroverrides_title">Vibreur</string>
+    <string name="vibrator_state_disabled">Désactivé</string>
+    <string name="vibrator_state_enabled">Actif</string>
+    <string name="vibrator_state_silent">Uniquement si silencieux</string>
     <string name="connection_state_disabled">Inactif</string>
     <string name="connection_state_enabled">Actif</string>
     <string name="volume_override_summary">Actuel</string>
-
-    <!-- Menu item for managing profiles -->
     <string name="profile_profiles_manage">Profils</string>
     <string name="profile_profile_manage">Gérer le profil</string>
     <string name="profile_applist_manage">Liste des applications</string>
     <string name="profile_appgroups_manage">Gérer les groupes</string>
     <string name="profile_appgroup_manage">Profil</string>
-
-    <!-- Profile settings screen, section header for settings related to notification profiles -->
     <string name="profile_settings">Paramètres du Profil</string>
     <string name="profile_name">Nom</string>
 
@@ -466,7 +456,13 @@
     <string name="profile_lockmode_default_summary">Conserver les paramètres système</string>
     <string name="profile_lockmode_insecure_summary">Ecran de verrouillage non sécurisé</string>
     <string name="profile_lockmode_disabled_summary">Ecran de verrouillage désactivé</string>
-
+    <string name="profile_airplanemode_title">Mode avion</string>
+    <string name="profile_airplanemode_default">Défaut</string>
+    <string name="profile_airplanemode_enabled">Actif</string>
+    <string name="profile_airplanemode_disabled">Désactivé</string>
+    <string name="profile_airplanemode_default_summary">Paramètres génériques</string>
+    <string name="profile_airplanemode_enabled_summary">Mode avion actif</string>
+    <string name="profile_airplanemode_disabled_summary">Mode avion désactivé</string>
     <string name="profile_disable_screen_lock_summary">Désactive l\'écran de verrouillage lorsque ce profil est actif</string>
 
     <!-- Connection override toggles (not all are used at this time ) -->
@@ -1394,7 +1390,7 @@
     <string name="usb_ptp_title" msgid="3852760810622389620">"Appareil photo (PTP)"</string>
     <string name="usb_ptp_summary" msgid="7673397474756664929">"Permet de transférer des photos à l\'aide du logiciel photo et de transférer des fichiers sur les ordinateurs non compatibles avec le protocole MTP."</string>
     <string name="usb_label_installer_cd" msgid="4331173824920630215">"Installer des outils de transfert de fichiers"</string>
-    <string name="battery_status_title" msgid="9159414319574976203">"État de la batterie"</string>
+    <string name="battery_status_title" msgid="9159414319574976203">"Etat de la batterie"</string>
     <string name="battery_level_title" msgid="2965679202786873272">"Niveau de la batterie"</string>
     <string name="apn_settings" msgid="3743170484827528406">"APN"</string>
     <string name="apn_edit" msgid="1354715499708424718">"Modifier le point d\'accès"</string>
