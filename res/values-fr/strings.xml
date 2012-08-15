@@ -1008,26 +1008,18 @@
     <string name="profiles_add">Ajouter</string>
     <string name="profile_menu_delete">Supprimer</string>
     <string name="profile_settings_title">Profil</string>
-
-    <!-- Add Profile -->
     <string name="add_profile_dialog_title">Créer nouveau profil</string>
     <string name="profile_name_title">Nom du profil</string>
     <string name="profile_profile_name_prompt">Entrer le nom du profil</string>
     <string name="menu_new_profile">Nouveau profil</string>
     <string name="menu_new_profile_summary">Ajouter et configurer un nouveau profil</string>
     <string name="new_profile_name">&lt;nouveau profil&gt;</string>
-
-    <!-- Rename Profile Dialog  -->
     <string name="rename_dialog_title">Renommer</string>
     <string name="rename_dialog_message">Saisir un nouveau nom</string>
     <string name="duplicate_appgroup_name">Ce groupe existe déjà !</string>
     <string name="duplicate_profile_name">Ce profil existe déjà !</string>
-
-    <!-- Reset Profiles -->
     <string name="profile_reset_title">Reset</string>
     <string name="profile_reset_message">Etes-vous certain de vouloir supprimer tous les profils et groupes d\'applications ?</string>
-
-    <!-- Delete confimation messages -->
     <string name="profile_delete_confirm">Supprimer ce profil ?</string>
     <string name="profile_app_delete_confirm">Supprimer cette application ?</string>
     <string name="profile_cannot_delete">Vous ne pouvez pas supprimer le profil actif</string>
@@ -1035,6 +1027,10 @@
     <!-- Profile Config screen PreferenceGroup titles -->
     <string name="profile_connectionoverrides_title">Connexions</string>
     <string name="profile_volumeoverrides_title">Volume perso.</string>
+    <string name="profile_vibratoroverrides_title">Vibreur</string>
+    <string name="vibrator_state_disabled">Désactivé</string>
+    <string name="vibrator_state_enabled">Actif</string>
+    <string name="vibrator_state_silent">Uniquement si silencieux</string>
     <string name="connection_state_disabled">Inactif</string>
     <string name="connection_state_enabled">Actif</string>
     <string name="volume_override_summary">Actuel</string>
@@ -1103,7 +1099,25 @@
     <string name="profile_lockmode_insecure_summary">Ecran de verrouillage non sécurisé</string>
     <string name="profile_lockmode_disabled_summary">Ecran de verrouillage désactivé</string>
 
+    <string name="profile_airplanemode_title">Mode avion</string>
+    <string name="profile_airplanemode_default">Défaut</string>
+    <string name="profile_airplanemode_enabled">Actif</string>
+    <string name="profile_airplanemode_disabled">Désactivé</string>
+    <string name="profile_airplanemode_default_summary">Paramètres génériques</string>
+    <string name="profile_airplanemode_enabled_summary">Mode avion actif</string>
+    <string name="profile_airplanemode_disabled_summary">Mode avion désactivé</string>
     <string name="profile_disable_screen_lock_summary">Désactive l\'écran de verrouillage lorsque ce profil est actif</string>
+
+    <!-- NFC... need help to translate that -->
+    <string name="profile_write_nfc_tag">Write to NFC tag</string>
+    <string name="profile_write_touch_tag">Touch tag to write</string>
+    <string name="profile_write_success">Tag successfully written</string>
+    <string name="profile_write_failed">Impossible d\'écrire le Tag !</string>
+    <string name="profile_selected">Profil sélectionné: %1$s</string>
+    <string name="profile_nfc_text">Writing a profile to a NFC tag allows for tapping the tag to select the profile. Tapping a second time will select the previously selected profile.</string>
+    <string name="profile_unknown_nfc_tag">Profil inconnu</string>
+    <string name="profile_add_nfc_text">Ce tag NFC utilise un profil inconnu. Liez ce tag à un profil existant pour pouvoir choisir ce profil à l\'avenir.</string>
+    <string name="profile_select">Choix du profil</string>
 
     <!-- Connection override toggles (not all are used at this time ) -->
     <string name="possibleButtons">Boutons disponibles</string>
