@@ -1,5 +1,4 @@
 /*
- * Copyright (C) 2012 CyanogenMod
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,6 +29,7 @@ import android.graphics.Bitmap;
 import android.graphics.Rect;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
@@ -52,6 +52,7 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
     public static final String KEY_CALENDAR_PREF = "lockscreen_calendar";
     public static final String KEY_BACKGROUND_PREF = "lockscreen_background";
     private static final String KEY_ALWAYS_BATTERY_PREF = "lockscreen_battery_status";
+
     private ListPreference mCustomBackground;
     private Preference mWeatherPref;
     private Preference mCalendarPref;

@@ -2177,6 +2177,11 @@
     <string name="use_location_title">Location &amp; Google search</string>
     <!-- [CHAR_LIMIT=100] Security & location settings screen, setting check box summary for Google search -->
     <string name="use_location_summary">Let Google use your location to improve search results and other services</string>
+    <!-- GPS Source selection -->
+    <string name="location_gps_source_title">GPS source</string>
+    <string name="location_gps_source_summary">Choose to use either an external Bluetooth GPS antenna or the internal GPS antenna as location provider</string>
+    <string name="location_gps_source_notification_title">Alert</string>
+    <string name="location_gps_source_notification">The GPS source has been switched! GPS will be disabled. Please re-enable before use!</string>
 
     <!-- About --> <skip />
     <!-- Main settings screen, setting title for the user to go into the About phone screen -->
@@ -2286,6 +2291,10 @@
     <string name="lockpattern_settings_enable_summary">Must draw pattern to unlock screen</string>
     <!-- Security & location settings screen, setting check box title. This setting controls whether a visible green line is drawn as the user moves his finger around while drawing the unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
     <string name="lockpattern_settings_enable_visible_pattern_title">Make pattern visible</string>
+    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone.-->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Security & location settings screen, setting check box title. This setting controls whether the dots will be drawn when using the lockscreen pattern.-->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Security & location settings screen, setting check box title. This setting controls whether tactile feedback will be produced when the user draws the pattern.-->
     <string name="lockpattern_settings_enable_tactile_feedback_title">Vibrate on touch</string>
     <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the power button is pressed. [CHAR LIMIT=28]-->
@@ -3235,6 +3244,9 @@
     <string name="tts_play_example_title">Listen to an example</string>
     <!-- On main TTS Settings screen, summary for triggering playback of an example of speech synthesis -->
     <string name="tts_play_example_summary">Play a short demonstration of speech synthesis</string>
+    <!-- On main TTS Settings screen, not found sample text message when triggers playback of an example of speech synthesis -->
+    <string name="tts_play_example_not_found_title">Warning</string>
+    <string name="tts_play_example_not_found_msg">A text string sample wasn\'t found for the requested language</string>
     <!-- On main TTS Settings screen, click to install required speech synthesis data -->
     <string name="tts_install_data_title">Install voice data</string>
     <!-- On main TTS Settings screen, summary for click to install required speech synthesis data -->
@@ -4441,6 +4453,10 @@
     <string name="lockscreen_background_custom_image">Custom image</string>
     <string name="lockscreen_background_default_wallpaper">Default wallpaper</string>
 
+    <!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
+    <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
+
     <!-- Lock screen misc. settings -->
     <string name="lockscreen_battery_status_title">Battery status</string>
     <string name="lockscreen_battery_status_charging">Only when charging</string>
@@ -4678,6 +4694,7 @@
     <string name="display_rotation_enabled">Enabled.</string>
     <string name="display_rotation_disabled">Disabled.</string>
     <string name="display_rotation_unit">degrees</string>
+    <string name="display_lockscreen_rotation_title">Include lock screen</string>
     <string name="display_rotation_category_title">Rotation modes</string>
     <string name="display_rotation_0_title">0 degrees</string>
     <string name="display_rotation_90_title">90 degrees</string>
@@ -4758,9 +4775,8 @@
     <string name="profile_add_nfc_text">This NFC tag refers to an unknown profile. Attaching this NFC tag to an existing profile will allow for selecting the profile in the future.</string>
     <string name="profile_select">Select profile</string>
 
-    <string name="link_volume_ringtones">Link ringtone + notification volume</string>
-    <string name="link_volume_ringtones_toast">Make sure to change your volume to re-set your notification volume to match your ringtone volume.</string>
-    <string name="link_volume_mutes">Link ringtone + notification mutes</string>
+    <string name="link_volume_ringtones">Link ringtone &amp; notifications volumes</string>
+    <string name="link_volume_mutes">Silent mode affects notifications</string>
 
     <string name="adb_over_network">ADB over network</string>
     <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi-Fi, USB networks). This setting is reset on reboot</string>
@@ -4780,7 +4796,7 @@
     <string name="silent_mode_title">Silent mode</string>
     <string name="volbtn_music_controls_title">Volume rocker music controls</string>
     <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
-    <string name="volume_ring_only_description">Ringtones</string>
+    <string name="volume_ring_only_description">Ringtone</string>
 
     <!-- Display Settings : Render effect -->
     <string name="pref_render_effect_title">Render effect</string>
@@ -4848,7 +4864,10 @@
     <string name="stylus_icon_enabled_summary">Show the pointer icon when hovering or drawing with the stylus</string>
 
     <!-- Power menu screenshot -->
-    <string name="power_menu_screenshot_title">Power menu screenshot</string>
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_reboot_title">Reboot menu</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_profiles_title">Profile switcher</string>
 
     <!-- Launches Dev Tools -->
     <string name="development_tools_title">Launch Tools</string>
