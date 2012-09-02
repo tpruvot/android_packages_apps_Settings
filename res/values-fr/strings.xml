@@ -163,9 +163,6 @@
     <string name="pulse_speed_slow">Lente</string>
     <string name="pulse_speed_very_slow">Très lente</string>
 
-    <!-- Advanced, Device specific (DeviceParts) settings  -->
-    <string name="advanced_settings_title">Avancé</string>
-
     <!-- INTERFACE Settings  -->
     <!-- Settings main menu category heading. Interface (Launcher, Themes, System). [CHAR LIMIT=40] -->
     <string name="header_category_interface">INTERFACE</string>
