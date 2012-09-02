@@ -1031,6 +1031,8 @@
     <string name="profile_connectionoverrides_title">Connexions</string>
     <string name="profile_volumeoverrides_title">Volume perso.</string>
     <string name="profile_vibratoroverrides_title">Vibreur</string>
+    <string name="vibrator_type_ringer">Appels</string>
+    <string name="vibrator_type_notification">Notifications</string>
     <string name="vibrator_state_disabled">Désactivé</string>
     <string name="vibrator_state_enabled">Actif</string>
     <string name="vibrator_state_silent">Uniquement si silencieux</string>
@@ -1044,6 +1046,7 @@
     <string name="profile_applist_manage">Liste des applications</string>
     <string name="profile_appgroups_manage">Gérer les groupes</string>
     <string name="profile_appgroup_manage">Profil</string>
+    <string name="profile_appgroup_name_title">Nom</string>
 
     <!-- Profile settings screen, section header for settings related to notification profiles -->
     <string name="profile_settings">Paramètres du Profil</string>

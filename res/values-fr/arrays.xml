@@ -323,6 +323,13 @@
     </string-array>
 
     <!-- Profile mode options. -->
+    <string-array name="profile_entries">
+        <item>Actif</item>
+        <item>Inactif</item>
+        <item>Par défaut</item>
+    </string-array>
+
+    <!-- Profile mode options. -->
     <string-array name="profile_connection_entries">
         <item>Inactif</item>
         <item>Actif</item>
