@@ -1237,6 +1237,10 @@
     <!-- About device screen, list item summary. Takes the user to the screen about how to donate to the CyanogenMod Project. -->
     <string name="donate_settings_summary">""</string>
 
+    <!-- CM Updater -->
+    <string name="cmupdate_settings_title">Mises à jour CyanogenMod</string>
+    <string name="cmupdate_settings_summary">Vérifier, installer ou afficher les mises à jour disponibles</string>
+
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
     <string name="anonymous_statistics_title">Statistiques CyanogenMod</string>
