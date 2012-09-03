@@ -203,9 +203,9 @@
     <string name="hardware_keys_menu_press_title">Bouton Menu</string>
     <string name="hardware_keys_menu_long_press_title">Bouton Menu (appui long)</string>
     <string name="hardware_keys_assist_press_title">Bouton Recherche</string>
-    <string name="hardware_keys_assist_long_press_title">Bouton Recherche (appui long)</string>
+    <string name="hardware_keys_assist_long_press_title">Recherche (appui long)</string>
     <string name="hardware_keys_app_switch_press_title">Bouton \"Applications récentes\"</string>
-    <string name="hardware_keys_app_switch_long_press_title">Bouton \"Application récentes\" (appui long)</string>
+    <string name="hardware_keys_app_switch_long_press_title">\"Applications récentes\" (appui long)</string>
     <string name="hardware_keys_show_overflow_title">Afficher le menu de l\'application</string>
     <string name="hardware_keys_show_overflow_summary">Afficher le bouton Menu (3 points) dans les applications</string>
     <string name="hardware_keys_show_overflow_toast_enable">Le menu de l\'application ne pourrait être visible qu\'après le redémarrage des applications</string>
@@ -572,10 +572,10 @@
     du système CyanogenMod pour comptabiliser le nombre d\'installations par type d\'appareil. Les informations envoyées contiennent un identifiant unique de appareil
     afin de limiter les doublons et en aucune manière ne compromet la sécurité de vos données. Ce jeu d\'informations est envoyé à chaque redémarrage pour ne conserver que les installations actives.
     \n\nVous pouvez visualiser ces données en sélectionnant \"Prévisualiser les données\".</string>
-    <string name="enable_reporting_title">Activer l\'envoi anonyme</string>
+    <string name="enable_reporting_title">Activer le reporting</string>
     <string name="preview_data_title">Prévisualiser les données</string>
     <string name="view_stats_title">Afficher les statistiques</string>
-    <string name="anonymous_learn_more">En savoir plus</string>
+    <string name="anonymous_learn_more">En savoir plus...</string>
 
     <!-- Anonymous Statistics - Notification -->
     <string name="anonymous_notification_desc">Activer ou non les statistiques CyanogenMod</string>
