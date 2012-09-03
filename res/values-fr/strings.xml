@@ -1169,6 +1169,12 @@
     <string name="location_gps_source_notification_title">Attention</string>
     <string name="location_gps_source_notification">La source GPS a été modifiée, le GPS va être temporairement désactivé. Veuillez le réactiver avant utilisation!</string>
 
+    <!-- Input Methods -->
+    <string name="ime_switcher_notify">Icône méthode de saisie</string>
+    <string name="ime_switcher_notify_summary">Afficher l\'icône de la méthode de saisie dans la barre de notification</string>
+    <string name="stylus_icon_enabled_title">Pointeur du stylet</string>
+    <string name="stylus_icon_enabled_summary">Afficher l\'icône du pointeur lors de l\'utilisation d\'un stylet</string>
+
     <!-- Dev settings, apps #CM -->
     <string name="adb_over_network">ADB sur TCP/IP</string>
     <string name="adb_over_network_summary">"Activer le débogage sur toutes les interfaces (réseaux USB, Wi-Fi et Bluetooth)"</string>
