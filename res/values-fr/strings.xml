@@ -485,6 +485,12 @@
     <string name="toggleLockScreen">Verrouillage</string>
     <string name="toggleWimax">WiMax</string>
 
+    <!-- GPS Source selection -->
+    <string name="location_gps_source_title">Source GPS</string>
+    <string name="location_gps_source_summary">Définir l\'origine des informations GPS, si vous préférez utiliser un dispositif externe Bluetooth au lieu de celui de l\'appareil</string>
+    <string name="location_gps_source_notification_title">Attention</string>
+    <string name="location_gps_source_notification">La source GPS a été modifiée, le GPS va être temporairement désactivé. Veuillez le réactiver avant utilisation!</string>
+
     <!-- Screen security - Screen security   -->
     <string name="screen_security_category">Verrouillage de l\'écran</string>
     <string name="screen_security_title">Écran de verrouillage</string>
@@ -680,6 +686,15 @@
     <string name="adb_over_network_summary">"Activer le débogage sur toutes les interfaces (réseaux USB, Wi-Fi et Bluetooth)"</string>
     <!-- Warning for Adb over Network -->
     <string name="adb_over_network_warning">"ATTENTION: Lorsque cette fonction est activée, votre appareil est ouvert aux intrusions sur toutes les interfaces, y compris via le réseau mobile !\n\nIl est fortement conseillé de désactiver le réseau mobile avant d\'activer cette fonction.\n\nContinuer ?"</string>
+    <string name="adb_notify">Notification débogage</string>
+    <string name="adb_notify_summary">Afficher une notification lorsque le débogage est actif</string>
+    <string name="root_access">Accès root</string>
+    <string name="root_access_warning_title">Autoriser l\'accès root ?</string>
+    <string name="root_access_warning_message">Autoriser l\'accès root aux applications peut être très dangereux et corrompre la sécurité et la stabilité de votre appareil !</string>
+    <string name="root_access_none">Désactivé</string>
+    <string name="root_access_apps">Appli. uniquement</string>
+    <string name="root_access_adb">ADB uniquement</string>
+    <string name="root_access_all">Applications et ADB</string>
 
     <!-- Security & location settings screen, setting check box title. This controls whether the device shows the slider widgets before the unlock option [CHAR LIMIT=28]-->
     <string name="lockpattern_settings_enable_lock_before_unlock">Afficher les widgets avant le déverrouillage</string>
