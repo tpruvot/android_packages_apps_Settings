@@ -557,8 +557,8 @@
     <!-- Performance Settings : Dithering -->
     <string name="pref_use_dithering_title">Activer le tramage</string>
     <string name="dithering_no_dither">Désactiver le tramage</string>
-    <string name="dithering_color_banding">Régler les bandes de couleurs (défaut)</string>
-    <string name="dithering_blur_effect">Régler les bandes de couleurs et l\'effet de flou</string>
+    <string name="dithering_color_banding">Corriger les bandes de couleurs (défaut)</string>
+    <string name="dithering_blur_effect">Corriger les bandes de couleurs et l\'effet de flou</string>
 
     <!-- Performance Settings : 16bpp Alpha -->
     <string name="pref_use_16bpp_alpha_title">Transparence 16 bits</string>
