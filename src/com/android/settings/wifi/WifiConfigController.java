@@ -102,6 +102,8 @@ public class WifiConfigController implements TextWatcher,
     public static final int WIFI_EAP_METHOD_TLS  = 1;
     public static final int WIFI_EAP_METHOD_TTLS = 2;
     public static final int WIFI_EAP_METHOD_PWD  = 3;
+    public static final int WIFI_EAP_METHOD_SIM  = 4;
+    public static final int WIFI_EAP_METHOD_AKA  = 5;
 
     private static final String TAG = "WifiConfigController";
 
@@ -363,8 +365,19 @@ public class WifiConfigController implements TextWatcher,
             case AccessPoint.SECURITY_EAP:
                 config.allowedKeyManagement.set(KeyMgmt.WPA_EAP);
                 config.allowedKeyManagement.set(KeyMgmt.IEEE8021X);
-                config.eap.setValue((String) mEapMethodSpinner.getSelectedItem());
+                String eap = (String) mEapMethodSpinner.getSelectedItem();
+                config.eap.setValue(eap);
 
+                Log.d(TAG, eap);
+
+                // check if an EAP-SIM/AKA method is chosen.
+                if (eap.contains("SIM")) {
+                    config.pcsc.setValue("UICC 00 00"); // it is only necessary that the pcsc entry is available.
+                    config.eap.setValue("SIM AKA");     // this will enable EAP-SIM for SIM and USIM
+                } else if (eap.contains("AKA")) {
+                    config.pcsc.setValue("UICC 00 00"); // it is only necessary that the pcsc entry is available.
+                    config.eap.setValue("AKA");         // this will enable EAP-AKA
+                }
                 config.phase2.setValue((mPhase2Spinner.getSelectedItemPosition() == 0) ? "" :
                         "auth=" + mPhase2Spinner.getSelectedItem());
                 config.ca_cert.setValue((mEapCaCertSpinner.getSelectedItemPosition() == 0) ? "" :
@@ -393,6 +406,7 @@ public class WifiConfigController implements TextWatcher,
         config.ipAssignment = mIpAssignment;
         config.linkProperties = new LinkProperties(mLinkProperties);
 
+        Log.d(TAG, config.toString());
         return config;
     }
 
@@ -580,6 +594,21 @@ public class WifiConfigController implements TextWatcher,
             mView.findViewById(R.id.l_ca_cert).setVisibility(View.GONE);
             mView.findViewById(R.id.l_user_cert).setVisibility(View.GONE);
             mView.findViewById(R.id.l_anonymous).setVisibility(View.GONE);
+        } else if (mEapMethodSpinner.getSelectedItemPosition() == WIFI_EAP_METHOD_SIM) {
+            mView.findViewById(R.id.l_phase2).setVisibility(View.GONE);
+            mView.findViewById(R.id.l_ca_cert).setVisibility(View.GONE);
+            mView.findViewById(R.id.l_user_cert).setVisibility(View.GONE);
+            mView.findViewById(R.id.l_anonymous).setVisibility(View.GONE);
+        } else if (mEapMethodSpinner.getSelectedItemPosition() == WIFI_EAP_METHOD_AKA) {
+            mView.findViewById(R.id.l_phase2).setVisibility(View.GONE);
+            mView.findViewById(R.id.l_ca_cert).setVisibility(View.GONE);
+            mView.findViewById(R.id.l_user_cert).setVisibility(View.GONE);
+            mView.findViewById(R.id.l_anonymous).setVisibility(View.GONE);
+            // TODO:
+            //  Operator Variant Parameter Value, OP or OPc (CFIeld)
+            //  Authentication Key 32-digit hex String
+            //  Random (RAND) 32-digit hex String
+            //  Method (AMF)  4 hex digits
         } else {
             mView.findViewById(R.id.l_phase2).setVisibility(View.VISIBLE);
             mView.findViewById(R.id.l_ca_cert).setVisibility(View.VISIBLE);

@@ -148,6 +148,8 @@
     <item msgid="8667872640594311615">"TLS"</item>
     <item msgid="7182812872984827322">"TTLS"</item>
     <item>PWD</item>
+    <item>SIM</item>
+    <item>AKA</item>
   </string-array>
   <string-array name="wifi_phase2_entries">
     <item msgid="1818786254010764570">"Nessuna"</item>

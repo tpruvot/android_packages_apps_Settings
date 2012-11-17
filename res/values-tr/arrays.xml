@@ -108,12 +108,6 @@
     <!-- no translation found for wifi_security_no_eap:0 (2084555984818107151) -->
     <!-- no translation found for wifi_security_no_eap:1 (397579322683471524) -->
     <!-- no translation found for wifi_security_no_eap:2 (1968820975358150484) -->
-  <string-array name="wifi_eap_method">
-    <item>"PEAP"</item>
-    <item>"TLS"</item>
-    <item>"TTLS"</item>
-    <item>"PWD"</item>
-  </string-array>
   <string-array name="wifi_p2p_wps_setup">
     <item msgid="5085064298144493867">"Düğme"</item>
     <item msgid="1624323946324499595">"Eş cihazın PIN\'i"</item>
@@ -163,6 +157,8 @@
     <item>"TLS"</item>
     <item>"TTLS"</item>
     <item>"PWD"</item>
+    <item>"SIM"</item>
+    <item>"AKA"</item>
   </string-array>
   <string-array name="wifi_phase2_entries">
     <item msgid="1818786254010764570">"Yok"</item>

@@ -296,15 +296,13 @@
 
     <!-- Match this with the constants in WifiDialog. --> <skip />
     <!-- Wi-Fi settings. The type of EAP method a Wi-Fi network has. -->
-    <string-array name="wifi_eap_method">
-        <!-- Do not translate. -->
+    <string-array name="wifi_eap_method" translatable="false">
         <item>PEAP</item>
-        <!-- Do not translate. -->
         <item>TLS</item>
-        <!-- Do not translate. -->
         <item>TTLS</item>
-        <!-- Do not translate. -->
         <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
     </string-array>
 
    <!-- Wi-Fi WPS setup for p2p connections. -->
@@ -413,6 +411,8 @@
         <item>TLS</item>
         <item>TTLS</item>
         <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
     </string-array>
 
     <!-- Phase 2 options -->
